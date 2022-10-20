@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "backstayregular";
+  src: url("/webfontkit-BackstayRegular/backstayregular-mlbpm-webfont.woff2")
+      format("woff2"),
+    url("/webfontkit-BackstayRegular/backstayregular-mlbpm-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "puzzledregular";
+  src: url("/webfontkit-puzzled/puzzled-regular-webfont.woff2") format("woff2"),
+    url("/webfontkit-puzzled/puzzled-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000000;
+  padding: 10px;
+}
+
+/* HEADER SECTION */
+header {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.logo h1 {
+  font-family: "backstayregular";
+  font-size: 50px;
+  color: #98d;
+}
+.listItems {
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.listItem {
+  list-style-type: none;
+  color: #f9f9f9;
+  font-size: 21px;
+}
+.listItem a:link {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: #98d 0.15em solid;
+}
+a:visited {
+  color: #f9f9f9;
+}
+a:active {
+  color: #98d;
+}
+
+/* HEADING SECTION */
+
+.heading {
+  height: 200px;
+  margin-top: 100px;
+}
+
+.heading p {
+  font-family: "puzzledregular";
+  text-align: center;
+  font-size: 170px;
+  background: linear-gradient(to right, #98d, #f9f9f9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* PROJECTS SECTION */
+
+.projects1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap:80px;
+}
+.projects2{
+display: flex;
+margin-top: 40px;
+justify-content: center;
+gap: 80px;
+}
+.projects8{
+  margin-top: 40px;
+  margin-left: 60px;
+  
+}
+.project {
+  display: flex;
+}
+.projectLeft {
+  width: 480px;
+  height: 270px;
+  background: rgba(153, 136, 221, 0.4);
+}
+.image {
+  width: 400px;
+}
+.projectImg {
+  margin-left: 40px;
+  margin-top: 26px;
+}
+.text {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.text p {
+  font-family: "Poppins";
+  color: #f9f9f9;
+}
+.projectRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  right: 25px;
+}
+.gitHub {
+  width: 165px;
+  height: 40px;
+  border-radius: 1px;
+  background: #f9f9f9;
+  border: 1px solid;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+a.anchor:link {
+  border: #98d 0.15em solid;
+}
+a.anchor:hover {
+  border: #98d 0.15em solid;
+  color: #98d;
+}
+
+/* FOOTER */
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+.git:link {
+  text-decoration: none;
+}
+a.git:hover {
+  border-bottom: 0px;
+}
+a.linkedin:hover{
+  border-bottom: 0px;
+}
+
+.logos {
+  display: flex;
+  gap: 55px;
+  margin-left: 468px;
+  margin-top: 5px;
+}

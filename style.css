@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "founderregular";
+  src: url("/webfontkit-20220808-031955/founder-dlgx-webfont.woff2")
+      format("woff2"),
+    url("/webfontkit-20220808-031955/founder-dlgx-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "better_graderegular";
+  src: url("/webfontkit-BetterGrade/bettergrade-519dv-webfont.woff2")
+      format("woff2"),
+    url("/webfontkit-BetterGrade/bettergrade-519dv-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "backstayregular";
+  src: url("/webfontkit-BackstayRegular/backstayregular-mlbpm-webfont.woff2")
+      format("woff2"),
+    url("/webfontkit-BackstayRegular/backstayregular-mlbpm-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "puzzledregular";
+  src: url("/webfontkit-puzzled/puzzled-regular-webfont.woff2") format("woff2"),
+    url("/webfontkit-puzzled/puzzled-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: #98D; */
+  background-color: black;
+}
+/* SECTION 1 */
+header {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.logo h1 {
+  font-family: "backstayregular";
+  font-size: 50px;
+  color: #98d;
+}
+.listItems {
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.listItem {
+  list-style-type: none;
+  color: #f9f9f9;
+  font-size: 21px;
+}
+.listItem a:link {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: #98d 0.15em solid;
+}
+a:visited {
+  color: #f9f9f9;
+}
+a:active {
+  color: #98d;
+}
+/* SECTION 2  */
+.section2 {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 70px; */
+  height: 500px;
+  align-items: center;
+  gap: 130px;
+}
+.mainImage {
+  width: 282px;
+  border-radius: 130px;
+}
+.section2Right {
+  color: #f9f9f9;
+}
+.main {
+  font-family: "backstayregular";
+  font-size: 60px;
+  margin-bottom: 32px;
+  background: linear-gradient(to right, #98d, #f9f9f9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mainPara {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #f9f9f9;
+}
+
+/* SECTION 3 */
+.section3 {
+  height: 900px;
+  width: 50%;
+  background: rgba(153, 136, 221, 0.4);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.section3 p {
+  color: #f9f9f9;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  left: 393px;
+  font-family: "puzzledregular";
+  font-size: 102px;
+  background: linear-gradient(to right, #f9f9f9, #98d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.section3Bottom {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 43px;
+  column-gap: 43px;
+  margin-left: 261px;
+  grid-column-gap: 54px;
+  font-family: "Poppins";
+}
+.container {
+  background: rgba(255, 255, 255, 0.6);
+  height: 300px;
+  width: 472px;
+  color: #f9f9f9;
+}
+.part1Image {
+  width: 400px;
+  height: 210px;
+}
+.container2 {
+  background: rgba(153, 136, 221, 0.4);
+  height: 300px;
+  width: 472px;
+  color: #f9f9f9;
+}
+.sec3PartImage {
+  margin-top: 20px;
+  text-align: center;
+}
+.sec3Para {
+  margin-left: 35px;
+margin-bottom: 6px;
+}
+.sec3Para h4 {
+  color: #f9f9f9;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.button {
+  margin-left: 35px;
+  display: flex;
+  gap: 279px;
+}
+.cardGit {
+  background: rgba(255, 255, 255, 0.3);
+border: 2px solid #f9f9f9;
+border-radius: 3px;
+width: 117px;
+height: 39px;
+color: #98d;
+font-family: "Poppins";
+font-weight: 700;
+font-size: 17px;
+position: relative;
+top: 83px;
+left: 177px;
+}
+a.ancho:link {
+  text-decoration: none;
+}
+
+.cardNetlify {
+  background: rgba(255, 255, 255, 0.3);
+border: 2px solid #f9f9f9;
+border-radius: 3px;
+width: 117px;
+height: 39px;
+color: #98d;
+font-family: "Poppins";
+font-weight: 700;
+font-size: 17px;
+position: relative;
+top: 179px;
+left:56px;
+}
+a.anchor:link {
+  text-decoration: none;
+}
+
+/* .section33Button{
+
+}
+
+.sec3ButtAnchor{
+
+}
+
+.buttonText{
+  font-family: "Poppins";
+  font-family: "Poppins";
+font-weight: initial;
+width: 195px;
+height: 40px;
+border-radius: 1px;
+background: rgba(153, 136, 221, 0.4);
+} */
+
+/* FLIP CARD */
+
+.container {
+  height: 300px;
+  width: 472px;
+  /* background: rgba(153, 136, 221, 0.4); */
+  perspective: 1000px;
+}
+.thecard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* background: rgba(255, 255, 255, 0.6); */
+}
+.container:hover .thecard {
+  transform: rotateY(180deg);
+}
+.container2:hover .thecard {
+  transform: rotateY(180deg);
+}
+.theFront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* background: rgba(255, 255, 255, 0.6); */
+  color: #f9f9f9;
+  margin-top: 20px;
+  /* text-align: center; */
+}
+.theBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #98d;
+  transform: rotateY(180deg);
+}
+
+/* CONTACT FORM */
+button, input {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "backstayregular"; */
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.section4 {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.formContainer {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: rgba(153, 136, 221, 0.4);
+  border-radius: 15px;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "backstayregular";
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #f9f9f9;
+  font-size: 38px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #f9f9f9;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #F8F0E3;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #F8F0E3;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #f9f9f9;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.app-form-button:hover {
+  color: #A44CD3;
+}
+
+/* FOOTER */
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.gitHub:link {
+  text-decoration: none;
+}
+a.gitHub:hover {
+  border-bottom: 0px;
+}
+a.linkedin:hover{
+  border-bottom: 0px;
+}
+
+.logos {
+  display: flex;
+  gap: 55px;
+  margin-left: 468px;
+  margin-top: 5px;
+}
+
+
